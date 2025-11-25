@@ -24,6 +24,10 @@ public class Bird extends Animal {
         return featherColor;
     }
 
+    public void fly() {
+        System.out.println("Bird is flying");
+    }
+
     @Override
     public void eat(String food) {
         System.out.println("Bird eats food: " + food);
