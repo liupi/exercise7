@@ -46,6 +46,6 @@ public class Blowfish extends Fish{
     @Override
     public String toString() {
         return "Blowfish{" + "name=" + getName() + ", age=" + getAge() +
-                ", weight=" + getWeight() + ", group=" + getGroup() + "toxicLevel=" + toxicLevel + '}';
+                ", weight=" + getWeight() + ", group=" + getGroup() + ", toxicLevel=" + toxicLevel + '}';
     }
 }

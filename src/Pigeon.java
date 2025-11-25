@@ -46,7 +46,7 @@ public class Pigeon extends Bird{
     @Override
     public String toString() {
         return "Pigeon{" + "name=" + getName() + ", age=" + getAge() +
-                ", weight=" + getWeight() + "featherColor=" + getFeatherColor() +", family=" + family + '}';
+                ", weight=" + getWeight() + ", featherColor=" + getFeatherColor() +", family=" + family + '}';
     }
 
 }

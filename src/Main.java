@@ -28,5 +28,14 @@ public class Main {
         animal[4].getVoice();
         animal[5].getVoice();
 
+        System.out.println();
+
+        System.out.println(animal[0]);
+        System.out.println(animal[1]);
+        System.out.println(animal[2]);
+        System.out.println(animal[3]);
+        System.out.println(animal[4]);
+        System.out.println(animal[5]);
+
     }
 }
