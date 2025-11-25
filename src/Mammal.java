@@ -24,6 +24,10 @@ public class Mammal extends Animal {
         return this.species;
     }
 
+    public void drinkMilk() {
+        System.out.println("Mammal drinks milk");
+    }
+
     @Override
     public void eat(String food) {
         System.out.println("Mammal eats food: " + food);
