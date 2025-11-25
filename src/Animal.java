@@ -40,6 +40,10 @@ abstract class Animal {
         return weight;
     }
 
-    public abstract void eat();
+    public abstract void eat(String food);
     public abstract void getVoice();
+
+    public String toString() {
+        return "Animal{" + "name=" + name + ", age=" + age + ", weight=" + weight + '}';
+    }
 }
