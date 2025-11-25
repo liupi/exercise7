@@ -12,5 +12,21 @@ public class Main {
                 new Blowfish("Toxic", "Pufferfish", "Fugu", 8)
         };
 
+        animal[0].eat("meat");
+        animal[1].eat("chicken");
+        animal[2].eat("insect");
+        animal[3].eat("bread");
+        animal[4].eat("worm");
+        animal[5].eat("algae");
+
+        System.out.println();
+
+        animal[0].getVoice();
+        animal[1].getVoice();
+        animal[2].getVoice();
+        animal[3].getVoice();
+        animal[4].getVoice();
+        animal[5].getVoice();
+
     }
 }
