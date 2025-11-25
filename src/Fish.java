@@ -24,6 +24,10 @@ public class Fish extends Animal {
         return group;
     }
 
+    public void hide() {
+        System.out.println("Fish hides");
+    }
+
     @Override
     public void eat(String food) {
         System.out.println("Fish eats food: " + food);
@@ -37,6 +41,6 @@ public class Fish extends Animal {
     @Override
     public String toString() {
         return "Fish{" + "name=" + getName() + ", age=" + getAge() +
-                ", weight=" + getWeight() + ", group=" + getGroup() + '}';
+                ", weight=" + getWeight() + ", group=" + group + '}';
     }
 }

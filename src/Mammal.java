@@ -41,6 +41,6 @@ public class Mammal extends Animal {
     @Override
     public String toString() {
         return "Mammal{" + "name=" + getName() + ", age=" + getAge() +
-                ", weight=" + getWeight() + ", species=" + getSpecies() + '}';
+                ", weight=" + getWeight() + ", species=" + species + '}';
     }
 }
