@@ -36,7 +36,7 @@ public class Bird extends Animal {
 
     @Override
     public String toString() {
-        return "Animal{" + "name=" + getName() + ", age=" + getAge() +
+        return "Bird{" + "name=" + getName() + ", age=" + getAge() +
                 ", weight=" + getWeight() + "featherColor=" + featherColor + '}';
     }
 }
