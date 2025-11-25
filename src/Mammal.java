@@ -8,13 +8,12 @@ public class Mammal extends Animal {
 
     public Mammal(String species, int age) {
         this.species = species;
-        this.setAge(age);
+        setAge(age);
     }
 
-    public Mammal(String species,  int age, String name) {
+    public Mammal(String species, String name, int age, int weight) {
+        super(name, age, weight);
         this.species = species;
-        this.setAge(age);
-        this.setName(name);
     }
 
     public void setSpecies(String species) {
